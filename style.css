@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    background-color: #E5E1EE;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E5E1EE;
+}
+
+.szamologep {
+    display: grid;
+    grid-template-columns: repeat(4, 6.8rem);
+    padding: 1.6rem;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 2.8rem;
+    box-shadow: 6px 6px 13px #fff,
+                6px 6px 13px rgba(0,0,0,0.6);
+}
+
+.display {
+    grid-column: span 4;
+    height: 6.8rem;
+    width: 27.2rem;
+    box-shadow: inset -2px -2px 13px #fff,
+                inset 2px 2px 13px rgba(0,0,0,0.6);
+    border: none;
+    border-radius: 2rem;
+    text-align: end;
+    margin: 3rem 0;
+    padding: 2rem;
+    font-size: 3rem;
+    color: rgb(75, 74, 74);
+}
+
+.button {
+    border: none;
+    box-shadow: inset 2px 2px 13px #fff,
+                inset 2px 2px 13px rgba(0,0,0,0.6);
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.3rem;
+}
+
+.button:hover {
+    background-color:#bdb9c5;
+    cursor: pointer;
+}
+
+.egyenlo {
+    box-shadow: inset 2px 2px 13px #fff,
+                inset 2px 2px 13px rgba(0,0,0,0.6);
+    border-radius: 50%;
+    width: 12rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    padding: 1.3rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.egyenlo:hover {
+    background-color:#bdb9c5;
+    cursor: pointer;
+}
