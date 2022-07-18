@@ -1,1 +1,1 @@
-Link: https://geradele.github.io/js-calculator/
+Link: https://adelmalek.github.io/js-calculator/
